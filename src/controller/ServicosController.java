@@ -20,7 +20,7 @@ public class ServicosController {
 		Process p = Runtime.getRuntime().exec(cmd);
 		InputStream is = p.getInputStream();
 		FileOutputStream os = new FileOutputStream(new File(
-				"C:\\Users\\lecol\\Desktop\\servicos.txt"));
+				"C:\\TEMP\\servicos.txt"));
 
 		int read = 0;
 		byte[] bytes = new byte[1024];

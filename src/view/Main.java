@@ -12,6 +12,7 @@ public class Main {
 		try {
 			sc.enableService(service);
 			sc.startService(service);
+			sc.servicos();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
